@@ -5,7 +5,7 @@
  * @Last Modified time: 2019-05-05 03:03:11 
  */
 
- 
+
 'use strict';
 
 process.stdin.resume();
@@ -37,11 +37,14 @@ function readLine() {
  * nums: An array of numbers.
  */
 function modifyArray(nums) {
-    let newNums = nums.filter(num, index => {
-        return num = index % 2 ? num * 3 : num * 2; 
+    let newNums = nums.map((num,index) => {
+        return num = num % 2 ? num * 3 : num * 2; 
     })
     return newNums;
 }
+
+nums = [1,2,3,4,5];
+console.log(modifyArray(nums));
 
 
 function main() {
