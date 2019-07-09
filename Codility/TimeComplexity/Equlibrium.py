@@ -23,7 +23,7 @@ def solution(A):
     left = A[0]
     right = sum(A)-A[0]
     dif = abs(right-left)
-    for i in range(len(A)-1):
+    for i in range(1,len(A)-1):
         left += A[i]
         right -= A[i]
         current_dif = abs(left-right)
