@@ -4,3 +4,8 @@ I am solving the hacker rank problems. The challenges I am trying to solve is:
 2. 30 Days of Codeing
 3. Python
 4. Interview Preparation Kit.
+
+
+# Codility
+
+1. Time Complexity
