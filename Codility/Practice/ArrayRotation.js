@@ -1,13 +1,24 @@
+// you can write to stdout for debugging purposes, e.g.
+// console.log('this is a debug message');
+
 function solution(A, K) {
-  //Reading the Problem set.
+  // write your code in JavaScript (Node.js 8.9.4)
+  var len = A.length;
+  var location = [];
+  var temp = A;
 
-  //Trying to get the length
-  let length = A.length;
+  for (var i = len; i > len; i--) {
+    var newLocation = (i + K) % len;
+    console.log(newLocation);
+    location.push(newLocation);
+  }
 
-  newPosition = length-3%length
-  
-  console.log(length);
+  let result = [];
+  for (let i = 0; i < len; i++) {
+    result[i] = temp[location[i]];
+  }
+
+  return result;
 }
 
-const A = [1, 2, 3, 4, 5, 6];
-solution(A, 2);
+solution([3, 8, 9, 7, 6], 3);
