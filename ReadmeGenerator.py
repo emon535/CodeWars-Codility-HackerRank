@@ -37,7 +37,7 @@ def getTotalNumberOfProblems():
 readmeFile = open('README.md', 'w', encoding='utf-8')
 print('<p align="center"><a href="https://www.hackerrank.com/emon535"><img src="https://i0.wp.com/gradsingames.com/wp-content/uploads/2016/05/856771_668224053197841_1943699009_o.png" ></a></p>', file=readmeFile)
 print(file=readmeFile)
-print('[![Welcome to HackerrankPractice repo on GitHub](http://www.picshare.ru/uploads/180620/mx1ziVEugO.jpg)](https://youtu.be/RGE2GC8OCgk)', file=readmeFile)
+
 print(file=readmeFile)
 print('# Solutions to Hackerrank practice problems', file=readmeFile)
 print('This repository contains ' + str(getTotalNumberOfProblems()) +
@@ -45,10 +45,10 @@ print('This repository contains ' + str(getTotalNumberOfProblems()) +
 print(file=readmeFile)
 print('Updated daily :) If it was helpful please press a star.', file=readmeFile)
 print(file=readmeFile)
-print('[![GitHub last commit](https://img.shields.io/github/last-commit/marinskiy/HackerrankPractice.svg)](https://github.com/marinskiy/HackerrankPractice) ', file=readmeFile)
-print('[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/marinskiy/HackerrankPractice.svg)](https://github.com/marinskiy/HackerrankPractice)', file=readmeFile)
-print('[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/marinskiy/HackerrankPractice.svg)](https://github.com/marinskiy/HackerrankPractice) ', file=readmeFile)
-print('[![GitHub stars](https://img.shields.io/github/stars/marinskiy/HackerrankPractice.svg)](https://github.com/marinskiy/HackerrankPractice)', file=readmeFile)
+print('[![GitHub last commit](https://img.shields.io/github/last-commit/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank) ', file=readmeFile)
+print('[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank)', file=readmeFile)
+print('[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank) ', file=readmeFile)
+print('[![GitHub stars](https://img.shields.io/github/stars/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank)', file=readmeFile)
 print(file=readmeFile)
 
 folders = getFoldersNames(os.getcwd())
