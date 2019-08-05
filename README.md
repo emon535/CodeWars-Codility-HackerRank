@@ -6,10 +6,9 @@ This repository contains 47 solutions to Hackerrank practice problems with Pytho
 
 Updated daily :) If it was helpful please press a star.
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank) 
+[![GitHub last commit](https://img.shields.io/github/last-commit/emon535/HackerRank?style=for-the-badge)](https://github.com/emon535/HackerRank) 
 [![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank)
-[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank) 
-[![GitHub stars](https://img.shields.io/github/stars/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/emon535/HackerRank?style=for-the-badge)](https://github.com/emon535/HackerRank) 
 
 - 10_Days_of_Javascript
     Day3
