@@ -17,8 +17,8 @@ def getFilesNames(path):
 
 def getProblemURLandScore(path):
     inFile = open(path, 'r', encoding='utf-8')
-    url = inFile.readline().split()[-1]
-    score = inFile.readline().split()[-1]
+    url = "https://github.com/emon535/HackerRank/blob/master/"
+    score = 10
     inFile.close()
     return url, score
 
@@ -65,7 +65,7 @@ for folder in folders:
                   + ' | [Problem](' + url
                   + ')'
                   + ' | [Solution]'
-                  + '(https://github.com/emon535/HackerrankPractice/blob/master/'
+                  + '(https://github.com/emon535/HackerRank/blob/master/'
                   + folder.replace(' ', '%20') + '/' +
                   subfolder.replace(' ', '%20') + '/'
                   + file.replace(' ', '%20') + ')'
