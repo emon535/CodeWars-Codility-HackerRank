@@ -45,10 +45,10 @@ print('This repository contains ' + str(getTotalNumberOfProblems()) +
 print(file=readmeFile)
 print('Updated daily :) If it was helpful please press a star.', file=readmeFile)
 print(file=readmeFile)
-print('[![GitHub last commit](https://img.shields.io/github/last-commit/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank) ', file=readmeFile)
+print('[![GitHub last commit](https://img.shields.io/github/last-commit/emon535/HackerRank?style=for-the-badge)](https://github.com/emon535/HackerRank) ', file=readmeFile)
 print('[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank)', file=readmeFile)
-print('[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank) ', file=readmeFile)
-print('[![GitHub stars](https://img.shields.io/github/stars/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank)', file=readmeFile)
+print('[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/emon535/HackerRank?style=for-the-badge)](https://github.com/emon535/HackerRank) ', file=readmeFile)
+
 print(file=readmeFile)
 
 folders = getFoldersNames(os.getcwd())
