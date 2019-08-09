@@ -1,3 +1,6 @@
+// Problem: https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
+// Score: 20
+
 "use strict";
 
 const fs = require("fs");

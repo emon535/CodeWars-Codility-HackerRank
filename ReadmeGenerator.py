@@ -17,7 +17,7 @@ def getFilesNames(path):
 
 def getProblemURLandScore(path):
     inFile = open(path, 'r', encoding='utf-8')
-    url = "https://www.hackerrank.com/interview/interview-preparation-kit"
+    url = inFile.readline().split()[-1]
     score = 10
     inFile.close()
     return url, score
@@ -61,13 +61,10 @@ for folder in folders:
             url, score = getProblemURLandScore(
                 os.path.join(os.getcwd(), folder, subfolder, file))
             print('        - ' + "".join(file.split(".")[1:-1])[1:]
-                  + ' | [Problem](' + url
-                  + ')'
-                  + ' | [Solution]'
+                  + '\n [Solution]'
                   + '(https://github.com/emon535/HackerRank/blob/master/'
                   + folder.replace(' ', '%20') + '/' +
                   subfolder.replace(' ', '%20') + '/'
-                  + file.replace(' ', '%20') + ')'
-                  + ' | Score: ' + str(score), file=readmeFile)
+                  + file.replace(' ', '%20') + ')', file=readmeFile)
 
 readmeFile.close()
