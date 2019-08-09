@@ -2,7 +2,7 @@
 
 
 # Solutions to Hackerrank practice problems
-This repository contains 47 solutions to Hackerrank practice problems with Python 3 and Oracle SQL.
+This repository contains 48 solutions to Hackerrank practice problems with Python 3 and Oracle SQL.
 
 Updated daily :) If it was helpful please press a star.
 
@@ -89,5 +89,6 @@ Updated daily :) If it was helpful please press a star.
         -  | [Problem](https://github.com/emon535/HackerRank/blob/master/) | [Solution](https://github.com/emon535/HackerRank/blob/master/Interview_Preparation_Kit/StringManipolation/Anagarm.py) | Score: 10
         - y20eb6e8788647c571debf4359b57e1b9 | [Problem](https://github.com/emon535/HackerRank/blob/master/) | [Solution](https://github.com/emon535/HackerRank/blob/master/Interview_Preparation_Kit/StringManipolation/Anagarm.py.20eb6e8788647c571debf4359b57e1b9.py) | Score: 10
     WarmUp
+        -  | [Problem](https://github.com/emon535/HackerRank/blob/master/) | [Solution](https://github.com/emon535/HackerRank/blob/master/Interview_Preparation_Kit/WarmUp/JumpingCloud.js) | Score: 10
         -  | [Problem](https://github.com/emon535/HackerRank/blob/master/) | [Solution](https://github.com/emon535/HackerRank/blob/master/Interview_Preparation_Kit/WarmUp/RepeatedString.py) | Score: 10
         -  | [Problem](https://github.com/emon535/HackerRank/blob/master/) | [Solution](https://github.com/emon535/HackerRank/blob/master/Interview_Preparation_Kit/WarmUp/SockMerchant.py) | Score: 10
