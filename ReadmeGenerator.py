@@ -17,7 +17,7 @@ def getFilesNames(path):
 
 def getProblemURLandScore(path):
     inFile = open(path, 'r', encoding='utf-8')
-    url = "https://github.com/emon535/HackerRank/blob/master/"
+    url = "https://www.hackerrank.com/interview/interview-preparation-kit"
     score = 10
     inFile.close()
     return url, score
@@ -39,14 +39,13 @@ print('<p align="center"><a href="https://www.hackerrank.com/emon535"><img src="
 print(file=readmeFile)
 
 print(file=readmeFile)
-print('# Solutions to Hackerrank practice problems', file=readmeFile)
+print('# Solutions to Hackerrank practice problems\n', file=readmeFile)
 print('This repository contains ' + str(getTotalNumberOfProblems()) +
-      ' solutions to Hackerrank practice problems with Python 3 and Oracle SQL.', file=readmeFile)
+      ' solutions to Hackerrank and Codility practice problems with Python 3 and JavaScript\n\n ', file=readmeFile)
 print(file=readmeFile)
 print('Updated daily :) If it was helpful please press a star.', file=readmeFile)
 print(file=readmeFile)
 print('[![GitHub last commit](https://img.shields.io/github/last-commit/emon535/HackerRank?style=for-the-badge)](https://github.com/emon535/HackerRank) ', file=readmeFile)
-print('[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/marinskiy/HackerrankPractice.svg)](https://github.com/emon535/HackerRank)', file=readmeFile)
 print('[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/emon535/HackerRank?style=for-the-badge)](https://github.com/emon535/HackerRank) ', file=readmeFile)
 
 print(file=readmeFile)
