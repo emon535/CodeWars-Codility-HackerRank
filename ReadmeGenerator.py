@@ -52,13 +52,14 @@ print(file=readmeFile)
 
 folders = getFoldersNames(os.getcwd())
 for folder in folders:
-    print('\n ## ' + folder, file=readmeFile)
+    print('\n## ' + folder, file=readmeFile)
     subfolders = getFoldersNames(os.path.join(os.getcwd(), folder))
     for subfolder in subfolders:
-        print('    ### ' + subfolder, file=readmeFile)
+        print('### ' + subfolder, file=readmeFile)
         files = getFilesNames(os.path.join(os.getcwd(), folder, subfolder))
         for file in files:
             print('- ' + "".join(file.split(".")[1:-1])[1:]
+                  + file
                   + '[Solution]'
                   + '(https://github.com/emon535/HackerRank/blob/master/'
                   + folder.replace(' ', '%20') + '/' +
