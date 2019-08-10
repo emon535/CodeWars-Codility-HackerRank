@@ -3,7 +3,7 @@
 
 # Solutions to Hackerrank practice problems
 
-This repository contains 47 solutions to Hackerrank and Codility practice problems with Python 3 and JavaScript
+This repository contains 48 solutions to Hackerrank and Codility practice problems with Python 3 and JavaScript
 
  
 
@@ -85,6 +85,7 @@ Updated daily :) If it was helpful please press a star.
 #### Arrays
 - 2DArray_DS.js [Solution](https://github.com/emon535/HackerRank/blob/master/Interview%20Preparation%20Kit/Arrays/2DArray_DS.js)
 - LeftRotation.js [Solution](https://github.com/emon535/HackerRank/blob/master/Interview%20Preparation%20Kit/Arrays/LeftRotation.js)
+- NewYearChaos.js [Solution](https://github.com/emon535/HackerRank/blob/master/Interview%20Preparation%20Kit/Arrays/NewYearChaos.js)
 #### DictionaryAndHashmap
 - RansomNote.js [Solution](https://github.com/emon535/HackerRank/blob/master/Interview%20Preparation%20Kit/DictionaryAndHashmap/RansomNote.js)
 - TwoString.js [Solution](https://github.com/emon535/HackerRank/blob/master/Interview%20Preparation%20Kit/DictionaryAndHashmap/TwoString.js)
